@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E186A871AC8B9E900B056A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186A861AC8B9E900B056A8 /* AppDelegate.swift */; };
+		7E186A891AC8B9E900B056A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186A881AC8B9E900B056A8 /* ViewController.swift */; };
+		7E186A8C1AC8B9E900B056A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E186A8A1AC8B9E900B056A8 /* Main.storyboard */; };
+		7E186A8E1AC8B9E900B056A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E186A8D1AC8B9E900B056A8 /* Images.xcassets */; };
+		7E186A911AC8B9E900B056A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E186A8F1AC8B9E900B056A8 /* LaunchScreen.xib */; };
+		7E186A9D1AC8B9E900B056A8 /* nodeChat_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186A9C1AC8B9E900B056A8 /* nodeChat_iOSTests.swift */; };
+		7E186AA71AC8BAE700B056A8 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E186AA61AC8BAE700B056A8 /* Entitlements.plist */; };
+		7E186AA91AC8BC2D00B056A8 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AA81AC8BC2D00B056A8 /* LogInViewController.swift */; };
+		7E186AB51AC8BD6E00B056A8 /* SocketAckHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AAB1AC8BD6E00B056A8 /* SocketAckHandler.swift */; };
+		7E186AB61AC8BD6E00B056A8 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AAC1AC8BD6E00B056A8 /* SocketEngine.swift */; };
+		7E186AB71AC8BD6E00B056A8 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AAD1AC8BD6E00B056A8 /* SocketEngineClient.swift */; };
+		7E186AB81AC8BD6E00B056A8 /* SocketEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AAE1AC8BD6E00B056A8 /* SocketEvent.swift */; };
+		7E186AB91AC8BD6E00B056A8 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AAF1AC8BD6E00B056A8 /* SocketEventHandler.swift */; };
+		7E186ABA1AC8BD6E00B056A8 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AB01AC8BD6E00B056A8 /* SocketFixUTF8.swift */; };
+		7E186ABB1AC8BD6E00B056A8 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AB11AC8BD6E00B056A8 /* SocketIOClient.swift */; };
+		7E186ABC1AC8BD6E00B056A8 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AB21AC8BD6E00B056A8 /* SocketParser.swift */; };
+		7E186ABD1AC8BD6E00B056A8 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AB31AC8BD6E00B056A8 /* SwiftRegex.swift */; };
+		7E186ABE1AC8BD6E00B056A8 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E186AB41AC8BD6E00B056A8 /* WebSocket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E186A971AC8B9E900B056A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E186A791AC8B9E900B056A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E186A801AC8B9E900B056A8;
+			remoteInfo = "nodeChat-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E186A811AC8B9E900B056A8 /* nodeChat-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nodeChat-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E186A851AC8B9E900B056A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E186A861AC8B9E900B056A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E186A881AC8B9E900B056A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E186A8B1AC8B9E900B056A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E186A8D1AC8B9E900B056A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E186A901AC8B9E900B056A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7E186A961AC8B9E900B056A8 /* nodeChat-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nodeChat-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E186A9B1AC8B9E900B056A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E186A9C1AC8B9E900B056A8 /* nodeChat_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nodeChat_iOSTests.swift; sourceTree = "<group>"; };
+		7E186AA61AC8BAE700B056A8 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		7E186AA81AC8BC2D00B056A8 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		7E186AAB1AC8BD6E00B056A8 /* SocketAckHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckHandler.swift; sourceTree = "<group>"; };
+		7E186AAC1AC8BD6E00B056A8 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		7E186AAD1AC8BD6E00B056A8 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		7E186AAE1AC8BD6E00B056A8 /* SocketEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEvent.swift; sourceTree = "<group>"; };
+		7E186AAF1AC8BD6E00B056A8 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		7E186AB01AC8BD6E00B056A8 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		7E186AB11AC8BD6E00B056A8 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		7E186AB21AC8BD6E00B056A8 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		7E186AB31AC8BD6E00B056A8 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		7E186AB41AC8BD6E00B056A8 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E186A7E1AC8B9E900B056A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E186A931AC8B9E900B056A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E186A781AC8B9E900B056A8 = {
+			isa = PBXGroup;
+			children = (
+				7E186AA61AC8BAE700B056A8 /* Entitlements.plist */,
+				7E186A831AC8B9E900B056A8 /* nodeChat-iOS */,
+				7E186A991AC8B9E900B056A8 /* nodeChat-iOSTests */,
+				7E186A821AC8B9E900B056A8 /* Products */,
+				7E186AAA1AC8BD6E00B056A8 /* SwiftIO */,
+			);
+			sourceTree = "<group>";
+		};
+		7E186A821AC8B9E900B056A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E186A811AC8B9E900B056A8 /* nodeChat-iOS.app */,
+				7E186A961AC8B9E900B056A8 /* nodeChat-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E186A831AC8B9E900B056A8 /* nodeChat-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E186A861AC8B9E900B056A8 /* AppDelegate.swift */,
+				7E186A881AC8B9E900B056A8 /* ViewController.swift */,
+				7E186AA81AC8BC2D00B056A8 /* LogInViewController.swift */,
+				7E186A8A1AC8B9E900B056A8 /* Main.storyboard */,
+				7E186A8D1AC8B9E900B056A8 /* Images.xcassets */,
+				7E186A8F1AC8B9E900B056A8 /* LaunchScreen.xib */,
+				7E186A841AC8B9E900B056A8 /* Supporting Files */,
+			);
+			path = "nodeChat-iOS";
+			sourceTree = "<group>";
+		};
+		7E186A841AC8B9E900B056A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E186A851AC8B9E900B056A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E186A991AC8B9E900B056A8 /* nodeChat-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E186A9C1AC8B9E900B056A8 /* nodeChat_iOSTests.swift */,
+				7E186A9A1AC8B9E900B056A8 /* Supporting Files */,
+			);
+			path = "nodeChat-iOSTests";
+			sourceTree = "<group>";
+		};
+		7E186A9A1AC8B9E900B056A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E186A9B1AC8B9E900B056A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E186AAA1AC8BD6E00B056A8 /* SwiftIO */ = {
+			isa = PBXGroup;
+			children = (
+				7E186AAB1AC8BD6E00B056A8 /* SocketAckHandler.swift */,
+				7E186AAC1AC8BD6E00B056A8 /* SocketEngine.swift */,
+				7E186AAD1AC8BD6E00B056A8 /* SocketEngineClient.swift */,
+				7E186AAE1AC8BD6E00B056A8 /* SocketEvent.swift */,
+				7E186AAF1AC8BD6E00B056A8 /* SocketEventHandler.swift */,
+				7E186AB01AC8BD6E00B056A8 /* SocketFixUTF8.swift */,
+				7E186AB11AC8BD6E00B056A8 /* SocketIOClient.swift */,
+				7E186AB21AC8BD6E00B056A8 /* SocketParser.swift */,
+				7E186AB31AC8BD6E00B056A8 /* SwiftRegex.swift */,
+				7E186AB41AC8BD6E00B056A8 /* WebSocket.swift */,
+			);
+			path = SwiftIO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E186A801AC8B9E900B056A8 /* nodeChat-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E186AA01AC8B9E900B056A8 /* Build configuration list for PBXNativeTarget "nodeChat-iOS" */;
+			buildPhases = (
+				7E186A7D1AC8B9E900B056A8 /* Sources */,
+				7E186A7E1AC8B9E900B056A8 /* Frameworks */,
+				7E186A7F1AC8B9E900B056A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nodeChat-iOS";
+			productName = "nodeChat-iOS";
+			productReference = 7E186A811AC8B9E900B056A8 /* nodeChat-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E186A951AC8B9E900B056A8 /* nodeChat-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E186AA31AC8B9E900B056A8 /* Build configuration list for PBXNativeTarget "nodeChat-iOSTests" */;
+			buildPhases = (
+				7E186A921AC8B9E900B056A8 /* Sources */,
+				7E186A931AC8B9E900B056A8 /* Frameworks */,
+				7E186A941AC8B9E900B056A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E186A981AC8B9E900B056A8 /* PBXTargetDependency */,
+			);
+			name = "nodeChat-iOSTests";
+			productName = "nodeChat-iOSTests";
+			productReference = 7E186A961AC8B9E900B056A8 /* nodeChat-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E186A791AC8B9E900B056A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rishi Masand";
+				TargetAttributes = {
+					7E186A801AC8B9E900B056A8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7E186A951AC8B9E900B056A8 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7E186A801AC8B9E900B056A8;
+					};
+				};
+			};
+			buildConfigurationList = 7E186A7C1AC8B9E900B056A8 /* Build configuration list for PBXProject "nodeChat-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E186A781AC8B9E900B056A8;
+			productRefGroup = 7E186A821AC8B9E900B056A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E186A801AC8B9E900B056A8 /* nodeChat-iOS */,
+				7E186A951AC8B9E900B056A8 /* nodeChat-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E186A7F1AC8B9E900B056A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E186AA71AC8BAE700B056A8 /* Entitlements.plist in Resources */,
+				7E186A8C1AC8B9E900B056A8 /* Main.storyboard in Resources */,
+				7E186A911AC8B9E900B056A8 /* LaunchScreen.xib in Resources */,
+				7E186A8E1AC8B9E900B056A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E186A941AC8B9E900B056A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E186A7D1AC8B9E900B056A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E186ABC1AC8BD6E00B056A8 /* SocketParser.swift in Sources */,
+				7E186ABA1AC8BD6E00B056A8 /* SocketFixUTF8.swift in Sources */,
+				7E186A891AC8B9E900B056A8 /* ViewController.swift in Sources */,
+				7E186AB71AC8BD6E00B056A8 /* SocketEngineClient.swift in Sources */,
+				7E186AB61AC8BD6E00B056A8 /* SocketEngine.swift in Sources */,
+				7E186A871AC8B9E900B056A8 /* AppDelegate.swift in Sources */,
+				7E186ABB1AC8BD6E00B056A8 /* SocketIOClient.swift in Sources */,
+				7E186AB91AC8BD6E00B056A8 /* SocketEventHandler.swift in Sources */,
+				7E186AB81AC8BD6E00B056A8 /* SocketEvent.swift in Sources */,
+				7E186ABE1AC8BD6E00B056A8 /* WebSocket.swift in Sources */,
+				7E186AA91AC8BC2D00B056A8 /* LogInViewController.swift in Sources */,
+				7E186AB51AC8BD6E00B056A8 /* SocketAckHandler.swift in Sources */,
+				7E186ABD1AC8BD6E00B056A8 /* SwiftRegex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E186A921AC8B9E900B056A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E186A9D1AC8B9E900B056A8 /* nodeChat_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E186A981AC8B9E900B056A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E186A801AC8B9E900B056A8 /* nodeChat-iOS */;
+			targetProxy = 7E186A971AC8B9E900B056A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E186A8A1AC8B9E900B056A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E186A8B1AC8B9E900B056A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E186A8F1AC8B9E900B056A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E186A901AC8B9E900B056A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E186A9E1AC8B9E900B056A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E186A9F1AC8B9E900B056A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E186AA11AC8B9E900B056A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nodeChat-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E186AA21AC8B9E900B056A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nodeChat-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E186AA41AC8B9E900B056A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nodeChat-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nodeChat-iOS.app/nodeChat-iOS";
+			};
+			name = Debug;
+		};
+		7E186AA51AC8B9E900B056A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nodeChat-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nodeChat-iOS.app/nodeChat-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E186A7C1AC8B9E900B056A8 /* Build configuration list for PBXProject "nodeChat-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E186A9E1AC8B9E900B056A8 /* Debug */,
+				7E186A9F1AC8B9E900B056A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E186AA01AC8B9E900B056A8 /* Build configuration list for PBXNativeTarget "nodeChat-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E186AA11AC8B9E900B056A8 /* Debug */,
+				7E186AA21AC8B9E900B056A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E186AA31AC8B9E900B056A8 /* Build configuration list for PBXNativeTarget "nodeChat-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E186AA41AC8B9E900B056A8 /* Debug */,
+				7E186AA51AC8B9E900B056A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E186A791AC8B9E900B056A8 /* Project object */;
+}
